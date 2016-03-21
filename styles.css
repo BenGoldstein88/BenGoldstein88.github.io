@@ -1,4 +1,4 @@
-div {
+.blocks {
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 20px;
@@ -7,11 +7,14 @@ div {
 
 }
 
-footer {
+.navfoot {
   margin: 0 auto;
   width: 30%;
+  font-family: helvetica;
 
 }
+
+nav{font-family: helvetica;}
 
 #indexbody {
 
@@ -22,4 +25,13 @@ footer {
     background-attachment: fixed;
     background-size: 30%;
 
+}
+
+a:link{color: #332d71;}
+a:visited{color: #908ad0;}
+a:hover{color: #fb4bde;}
+a:active{color: #dcdbf0;};
+
+@media screen and (min-width: 600px) {
+ .blocks{border: none;}
 }
