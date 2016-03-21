@@ -1,0 +1,25 @@
+div {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  border: 1px dashed black;
+  margin: 10px;
+
+}
+
+footer {
+  margin: 0 auto;
+  width: 30%;
+
+}
+
+#indexbody {
+
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Quarter_rest.svg/1000px-Quarter_rest.svg.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+    background-attachment: fixed;
+    background-size: 30%;
+
+}
